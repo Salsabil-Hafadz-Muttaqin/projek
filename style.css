@@ -39,6 +39,11 @@ table.signin {
     text-align: center;
 }
 
+table.signin tr td a{
+    color: white;
+    text-decoration: none;
+}
+
 table.signup {
     margin: 20px;
     height: 60px;
