@@ -1,0 +1,102 @@
+@font-face{
+    font-family: rye;
+    src: url(Rye-Regular.ttf);
+}
+
+body{
+    background-image: url(img/kisspng-kiss-silhouette-couple-illustration-kiss-vector-sunlit-5a836402a1cb38.9319274615185602586627.png);
+    background-repeat: no-repeat;
+    background-size: 1366px 700px;
+    background-color: aqua;
+    font-family: rye;
+}
+
+table.top{
+    background-color: rgb(199, 195, 195);
+    height: 180px;
+    width: 1366px;
+    border-radius: 1.5em;
+    font-size: 50px;
+    text-align: left;
+    position: static;
+}
+
+ /* table img {
+    height: 150px;
+    width: 180px;
+    max-height: 200;
+} */
+
+table.romancehome{
+    margin: 40px;
+    height: 40px;
+    width: 100px;
+    font-size: 35px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+table.tabel2{
+    width: 1366px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+table.horor{
+    height: 400px;
+    width: 1350px;
+    background-color: rgb(199, 195, 195);
+    margin: 20px;
+    margin-left: 10px;
+    font-size: 40px;
+    padding-left: 10px;
+    border-radius: 1.5em;
+}
+
+table.comedy{
+    height: 400px;
+    width: 350px;
+    margin: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 0px;
+    font-size: 40px;
+    background-color: rgb(70, 248, 70);
+    border-radius: 1.5em;
+}
+
+table.adventure{
+    height: 380px;
+    width: 900px;
+    background-color: rgb(253, 252, 252);
+    margin: 1px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 40px;
+    padding-left: 10px;
+    border-radius: 1.5em;
+}
+
+.info{
+    height: 1px;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.faf{
+    height: 1px;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 30px;
+    background-color: rgb(221, 33, 33);
+}
+
+.pengarang{
+    margin-right: 1px;
+    margin-left: 1100px;
+}
