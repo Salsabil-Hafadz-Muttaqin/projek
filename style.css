@@ -107,10 +107,10 @@ table.comedy{
 
 table.adventure{
     height: 40px;
-    width: 400px;
+    width: 350px;
     background-color: rgb(255, 125, 4);
     margin: 40px;
-    font-size: 40px;
+    font-size: 26px;
 }
 
 table.history{
@@ -135,9 +135,9 @@ table.fantasy{
 
 table.romance{
     height: 40px;
-    width: 400px;
+    width: 350px;
     background-color: rgb(255, 0, 0);
     margin: 40px;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0px;
 }

@@ -44,19 +44,23 @@ table.tabelb{
     background-color: white;
     border-radius: 30px;
     height: 65px;
-    width: 520px;
+    width: 400px;
     text-align: center;
+    margin-right: 30px;
 }
 
 table.tabelb tr td input{
     font-family: rye;
-    font-size: 30px;
+    font-size: 20px;
     height: 55px;
+    width: 350px;
     margin-left: 0px;
     border: 0px;
     text-align: center;
     color: black;
     outline: none;
+    border-radius: 30px;
+    background-color: white;
 }
 
 table.tabelc{
@@ -64,20 +68,23 @@ table.tabelc{
     border-radius: 30px;
     text-align: center;
     height: 65px;
-    width: 520px;
-    margin-top: 20px;
+    width: 400px;
+    margin-top: 0px;
+    padding-left: 10px;
 }
 
 table.tabelc tr td input{
     font-family: rye;
-    font-size: 30px;
+    font-size: 20px;
     height: 55px;
-    width: 440px;
+    width: 350px;
     margin-left: 0px;
     border: 0px;
     text-align: center;
     color: black;
     outline: none;
+    border-radius: 30px;
+    background-color: white;
 }
 
 table.tabeld tr th{
@@ -93,31 +100,26 @@ table.tabeld tr td input{
     color: black;
     margin-top: 5px;
     outline: none;
-    border: none;
+    border: 0px;
     border-radius: 30px;
     font-family: rye;
+    margin-left: 0px;
 }
 
 table.tabele tr td.back{
     font-size: 30px;
     border-radius: 30px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     width: 170px;
     height: 35px;
     text-align: center;
+    outline: none;
 }
 
 table.tabele tr td.back a{
     color: white;
     text-decoration: none;
-}
-
-table.tabele tr th{
-    font-size: 20px;
-    padding-left: 250px;
-    padding-right: 130px;
-
 }
 
 table.tabele tr td.submit input{
@@ -130,5 +132,5 @@ table.tabele tr td.submit input{
     font-size: 30px;
     width: 170px;
     height: 40px;
-
+    margin-left: 420px;
 }

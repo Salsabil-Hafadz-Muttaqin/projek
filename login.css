@@ -1,0 +1,140 @@
+@font-face{
+    font-family: rye;
+    src: url(Rye-Regular.ttf);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 1366px 700px;
+    background-color: aqua;
+    background-attachment: fixed;
+    font-family: rye;
+}
+
+table.top{
+    background-color: rgb(199, 195, 195);
+    height: 180px;
+    width: 1366px;
+    border-radius: 1.5em;
+    font-size: 50px;
+    text-align: left;
+    position: static;
+}
+
+table.tabela{
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+
+table.tabela tr td{
+    background-color: rgb(199, 195, 195);
+    border-radius: 30px;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+table.tabela tr th{
+    font-size: 30px;
+}
+
+table.tabelb{
+    background-color: white;
+    border-radius: 30px;
+    height: 65px;
+    width: 520px;
+    text-align: center;
+}
+
+table.tabelb tr td input{
+    font-family: rye;
+    font-size: 30px;
+    height: 55px;
+    width: 440px;
+    margin-left: 0px;
+    border: 0px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+
+table.tabelc{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    height: 65px;
+    width: 520px;
+    margin-top: 20px;
+}
+
+table.tabelc tr td input{
+    font-family: rye;
+    font-size: 30px;
+    height: 55px;
+    width: 440px;
+    margin-left: 0px;
+    border: 0px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+
+table.tabeld tr th{
+    font-size: 30px;
+}
+
+table.tabeld tr td input{
+    background-color: white;
+    font-size: 30px;
+    height: 55px;
+    width: 500px;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    outline: none;
+    border: 0px;
+    border-radius: 30px;
+    font-family: rye;
+    margin-left: 0px;
+}
+
+table.tabele tr td.back{
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    outline: none;
+}
+
+table.tabele tr td.back a{
+    color: white;
+    text-decoration: none;
+}
+
+table.tabele tr th{
+    font-size: 20px;
+    padding-left: 250px;
+    padding-right: 130px;
+
+}
+
+table.tabele tr td.submit input{
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    border-color: blue;
+    font-family: rye;
+    font-size: 30px;
+    width: 170px;
+    height: 40px;
+}
