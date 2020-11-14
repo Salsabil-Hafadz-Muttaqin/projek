@@ -120,11 +120,18 @@ table.tabele tr td.back a{
     text-decoration: none;
 }
 
+table.tabele tr td.back a:hover{
+    zoom: 1.02;
+}
+
 table.tabele tr th{
     font-size: 20px;
     padding-left: 250px;
     padding-right: 130px;
+}
 
+table.tabele tr th p:hover{
+    color: white;
 }
 
 table.tabele tr td.submit input{
@@ -137,4 +144,8 @@ table.tabele tr td.submit input{
     font-size: 30px;
     width: 170px;
     height: 40px;
+}
+
+table.tabele tr td.submit input:hover{
+    zoom: 1.02;
 }

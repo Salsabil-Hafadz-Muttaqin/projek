@@ -47,6 +47,11 @@ table.horor{
     padding-left: 10px;
 }
 
+table.horor a{
+    color: black;
+    text-decoration: none;
+}
+
 table.comedy{
     height: 40px;
     width: 350px;

@@ -110,7 +110,6 @@ table.tabele tr td.back{
     font-size: 30px;
     border-radius: 30px;
     background-color: rgb(0, 0, 0);
-    color: white;
     width: 170px;
     height: 35px;
     text-align: center;
@@ -120,6 +119,10 @@ table.tabele tr td.back{
 table.tabele tr td.back a{
     color: white;
     text-decoration: none;
+}
+
+table.tabele tr td.back:hover{
+    background-color: blue;
 }
 
 table.tabele tr td.submit input{
@@ -133,4 +136,9 @@ table.tabele tr td.submit input{
     width: 170px;
     height: 40px;
     margin-left: 420px;
+}
+
+table.tabele tr td.submit input:hover{
+    background-color: white;
+    color: blue;
 }
