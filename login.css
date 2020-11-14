@@ -21,6 +21,10 @@ table.top{
     position: static;
 }
 
+table.top tr td.br{
+    color: white;
+}
+
 table.tabela{
     margin-top: 20px;
     margin-left: 50px; 
@@ -46,20 +50,11 @@ table.tabelb{
     height: 65px;
     width: 520px;
     text-align: center;
+    font-size: 30px;
 }
 
-table.tabelb tr td input{
-    font-family: rye;
-    font-size: 30px;
-    height: 55px;
-    width: 440px;
-    margin-left: 0px;
-    border: 0px;
-    text-align: center;
-    color: black;
-    outline: none;
-    border-radius: 30px;
-    background-color: white;
+table.tabelb tr td a:hover{
+    zoom: 1.02;
 }
 
 table.tabelc{
@@ -69,20 +64,11 @@ table.tabelc{
     height: 65px;
     width: 520px;
     margin-top: 20px;
+    font-size: 30px;
 }
 
-table.tabelc tr td input{
-    font-family: rye;
-    font-size: 30px;
-    height: 55px;
-    width: 440px;
-    margin-left: 0px;
-    border: 0px;
-    text-align: center;
-    color: black;
-    outline: none;
-    border-radius: 30px;
-    background-color: white;
+table.tabelc tr td a:hover{
+    zoom: 1.02;
 }
 
 table.tabeld tr th{

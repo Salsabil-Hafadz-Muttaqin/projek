@@ -21,6 +21,10 @@ table.top{
     position: static;
 }
 
+table.top tr td.br{
+    color: white;
+}
+
 table.tabela{
     margin-top: 20px;
     margin-left: 50px; 

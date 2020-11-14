@@ -21,11 +21,9 @@ table.top{
     position: static;
 }
 
- /* table img {
-    height: 150px;
-    width: 180px;
-    max-height: 200;
-} */
+table.top tr td.br{
+    color: white;
+}
 
 table.signin {
     margin: 20px;
@@ -83,6 +81,11 @@ table.populer{
     margin-left: 200px;
     border-radius: 30px;
     padding: 8px;
+    color: blue;
+}
+
+table.populer td a:hover{
+    zoom: 1.02;
 }
 
 table.rekomendasi{
@@ -93,6 +96,11 @@ table.rekomendasi{
     margin-right: 140px;
     border-radius: 30px;
     padding: 8px;
+    color: red;
+}
+
+table.rekomendasi td a:hover{
+    zoom: 1.02;
 }
 
 table.horor{
@@ -103,6 +111,11 @@ table.horor{
     margin: 40px;
     margin-left: 60px;
     font-size: 40px;
+    color: gray;
+}
+
+table.horor td a:hover{
+    zoom: 1.02;
 }
 
 table.comedy{
@@ -113,12 +126,21 @@ table.comedy{
     font-size: 40px;
 }
 
+table.comedy td a:hover{
+    zoom: 1.02;
+}
+
 table.adventure{
     height: 40px;
     width: 350px;
     background-color: rgb(255, 125, 4);
     margin: 40px;
-    font-size: 26px;
+    font-size: 25px;
+    color: rgb(83, 255, 4);
+}
+
+table.adventure td a:hover{
+    zoom: 1.02;
 }
 
 table.history{
@@ -132,6 +154,10 @@ table.history{
     margin-top: 0px;
 }
 
+table.history td a:hover{
+    zoom: 1.02;
+}
+
 table.fantasy{
     height: 40px;
     width: 350px;
@@ -139,6 +165,11 @@ table.fantasy{
     margin: 40px;
     font-size: 40px;
     margin-top: 0px;
+    color: red;
+}
+
+table.fantasy td a:hover{
+    zoom: 1.02;
 }
 
 table.romance{
@@ -151,7 +182,7 @@ table.romance{
 }
 
 table.romance td a{
-    color: black;
+    color: rgb(243, 131, 150);
     text-decoration: none;
 }
 

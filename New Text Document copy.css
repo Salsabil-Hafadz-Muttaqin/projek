@@ -21,11 +21,9 @@ table.top{
     position: static;
 }
 
- /* table img {
-    height: 150px;
-    width: 180px;
-    max-height: 200;
-} */
+table.top tr td.br{
+    color: white;
+}
 
 table.romancehome{
     margin: 40px;
