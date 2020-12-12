@@ -13,10 +13,10 @@ body{
 
 table.top{
     background-color: rgb(199, 195, 195);
-    height: 180px;
-    width: 1366px;
+    height: 2.5%;
+    width: 100%;
     border-radius: 1.5em;
-    font-size: 50px;
+    font-size: 70px;
     text-align: left;
     position: static;
 }
@@ -188,4 +188,27 @@ table.romance td a{
 
 table.romance td a:hover{
     zoom: 1.02;
+}
+
+@media screen and (max-width: 960px) {
+    table.top {
+        width: 960px;
+        height: 70%;
+        background-color: rgb(199, 195, 195);
+        border-radius: 4em;
+        font-size: 100%;
+        text-align: left;
+        position: static;
+    }
+
+    table.signin {
+        margin: 20px;
+        height: 50%;
+        width: 50%;
+        font-size: 100%;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+    }
 }

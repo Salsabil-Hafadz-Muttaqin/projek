@@ -44,7 +44,7 @@ table.tabela tr th{
     font-size: 30px;
 }
 
-table.tabelb{
+/* table.tabelb{
     background-color: white;
     border-radius: 30px;
     height: 65px;
@@ -69,11 +69,12 @@ table.tabelc{
 
 table.tabelc tr td a:hover{
     zoom: 1.02;
-}
+} */
 
-table.tabeld tr th{
+/* table.tabeld tr th{
     font-size: 30px;
-}
+} */
+
 
 table.tabeld tr td input{
     background-color: white;
@@ -82,7 +83,8 @@ table.tabeld tr td input{
     width: 500px;
     text-align: center;
     color: black;
-    margin-top: 5px;
+    margin-top: 80px;
+    margin-bottom: -20px;
     outline: none;
     border: 0px;
     border-radius: 30px;
@@ -90,30 +92,38 @@ table.tabeld tr td input{
     margin-left: 0px;
 }
 
+table.tabeld tr td input[type="password"]{
+    padding-top: 0px;
+}
+
 table.tabele tr td.back{
     font-size: 30px;
-    border-radius: 30px;
-    background-color: black;
     color: white;
-    width: 170px;
-    height: 35px;
     text-align: center;
     outline: none;
+    padding-top: 50px;
 }
 
 table.tabele tr td.back a{
     color: white;
     text-decoration: none;
+    background-color: black;
+    border-radius: 30px;
+    width: 170px;
+    height: 35px;
 }
 
 table.tabele tr td.back a:hover{
-    zoom: 1.02;
+    background-color: blue;
 }
 
 table.tabele tr th{
     font-size: 20px;
     padding-left: 250px;
-    padding-right: 130px;
+    padding-right: 200px;
+    padding-top: 50px;
+    width: 170px;
+    height: 40px;
 }
 
 table.tabele tr th p:hover{
@@ -128,8 +138,7 @@ table.tabele tr td.submit input{
     border-color: blue;
     font-family: rye;
     font-size: 30px;
-    width: 170px;
-    height: 40px;
+    margin-top: 50px;
 }
 
 table.tabele tr td.submit input:hover{

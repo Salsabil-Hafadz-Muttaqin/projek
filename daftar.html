@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <title>Daftar</title>
-    <link rel="stylesheet" href="daftar.css"
+    <link rel="stylesheet" href="daftar.css"></link>
+    <!-- <script src="daftar.js"></script> -->
 </head>
 <body background="img/kisspng-book-candle-vecteur-vector-books-and-candles-5a866c0e58bdf5.7107479315187589263635.png">
     <table class="top">
@@ -21,37 +22,15 @@
     </table>
 
     <center>
-        <table>
-            <td>
-            <table class="tabelb">
-                <tr>
-                    <td><img src="img/kisspng-google-logo-g-suite-google-5ab6f1f10f4d49.7230064015219389290627.png" alt="logo google" height="55px" width="55px"></td>
-                    <td> <a>MASUK DENGAN GOOGLE</a> </td>
-                </tr>
-            </table>
-            </td>
-            <td>
-            <table class="tabelc">
-                <tr>
-                    <td><img src="img/kisspng-computer-icons-facebook-graph-search-emoticon-like-face-book-logo-5b510f89ae5483 1.png" alt="logo facebook" height="50px" width="50px"></td>
-                    <td> <a>MASUK DENGAN FACEBOOK</a> </td>
-                </tr>
-            </table>
-            </td>
-        </table>
-
-        <table class="tabeld">
+        <table class="tabeld" name="tabeld">
             <tr>
-                <th>ATAU</th>
+                <td><input type="text" name="email" id="a" placeholder="EMAIL" /></td>
             </tr>
             <tr>
-                <td><input type="text" name="email" placeholder="EMAIL" /></td>
+                <td><input type="password" name="password" id="b" placeholder="PASSWORD" /</td>
             </tr>
             <tr>
-                <td><input type="password" name="password" placeholder="PASSWORD" /</td>
-            </tr>
-            <tr>
-                <td><input type="number" name="No Handphone" placeholder="No Handphone" /></td>
+                <td><input type="number" name="No Handphone" id="c" placeholder="No Handphone" /></td>
             </tr>
         </table>
     </center>
@@ -59,8 +38,64 @@
             <tr>
                 <td class="back"> <a href="index.html">KEMBALI</a></td>
                 <td class="submit"><input type="submit" name="submit" value="DAFTAR" /></td>
+                <td class="button"><button data-toggle="modal" id="button" onclick="showinfo()">CEK DATA</button></td>
             </tr>
         </table>
 
+        <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        CEK DATA
+                        <table>
+                            <tr>
+                                <td>EMAIL</td>
+                                <td>:</td>
+                                <td id="email">:</td>
+                            </tr>
+                            <tr>
+                                <td>PASSWORD</td>
+                                <td>:</td>
+                                <td id="password"></td>
+                            </tr>
+                            <tr>
+                                <td>NO HANDPHONE</td>
+                                <td>:</td>
+                                <td id="nomer"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let button = document.querySelector('button[data-toggle="modal"]')
+            let modal = document.querySelector(".modal")
+            console.log(modal)
+            button.addEventListener("click", function() {
+                modal.classList.add('show');
+            });
+
+            modal.addEventListener("click", function() {
+                this.classList.remove('show');
+            });
+
+            modal.querySelector(".modal-content").addEventListener("click", function(e) {
+                e.stopPropagation();
+            });
+
+            document.getElementById("button").
+            addEventListener("click", tampilkan);
+
+            function showinfo() {
+                var un = document.getElementById("a").value;
+                var pw = document.getElementById("b").value;
+                var pp = document.getElementById("c").value;
+
+                document.getElementById("email").innerHTML = un;
+                document.getElementById("password").innerHTML = pw;
+                document.getElementById("nomer").innerHTML = pp;
+            }
+        </script>
 </body>
 </html>
