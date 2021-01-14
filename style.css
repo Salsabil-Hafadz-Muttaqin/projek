@@ -84,6 +84,11 @@ table.populer{
     color: blue;
 }
 
+table.populer td a{
+    color: blue;
+    text-decoration: none;
+}
+
 table.populer td a:hover{
     zoom: 1.02;
 }
@@ -97,6 +102,11 @@ table.rekomendasi{
     border-radius: 30px;
     padding: 8px;
     color: red;
+}
+
+table.rekomendasi td a{
+    color: red;
+    text-decoration: none;
 }
 
 table.rekomendasi td a:hover{
@@ -192,23 +202,124 @@ table.romance td a:hover{
 
 @media screen and (max-width: 960px) {
     table.top {
-        width: 960px;
-        height: 70%;
-        background-color: rgb(199, 195, 195);
-        border-radius: 4em;
-        font-size: 100%;
+        height: 150px;
+        border-radius: 1.5em;
+        font-size: 40px;
         text-align: left;
         position: static;
+        background-color: rgb(199, 195, 195);
     }
 
     table.signin {
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
         margin: 20px;
-        height: 50%;
-        width: 50%;
-        font-size: 100%;
+        margin-left: 100px;
+    }
+
+    table.signup {
+        margin: 20px;
+        margin-left: 100px;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
         background-color: black;
         color: white;
         border-radius: 30px;
         text-align: center;
     }
-}
+
+    table.tabel2{
+        width: 960px;
+        height: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    table.populer{
+        width: 300px;
+        height: 40px;
+        font-size: 30px;
+        background-color: white;
+        margin-left: 10px;
+        border-radius: 30px;
+        padding: 8px;
+        color: blue;
+    }
+
+    table.rekomendasi{
+        width: 300px;
+        height: 40px;
+        font-size: 30px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 8px;
+    }
+
+    table.genre{
+        width: 700px;
+        height: 50px;
+        text-align: center;
+    }
+
+    table.genre img{
+        height: 50px;
+        width: 50px;
+    }
+
+    table.horor{
+        height: 100px;
+        width: 180px;
+        margin: 40px;
+        margin-left: 10px;
+        font-size: 40px;
+    }
+
+    table.comedy{
+        height: 100px;
+        width: 180px;
+        margin: 0px;
+        font-size: 35px;
+        margin-left: -30px;
+    }
+    
+    table.history{
+        height: 100px;
+        width: 180px;
+        margin: 40px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 34px;
+        margin-top: 0px;
+    }
+
+    table.fantasy{
+        height: 100px;
+        width: 180px;
+        margin: 0px;
+        font-size: 32px;
+        margin-top: -40px;
+        margin-left: -30px;
+    }
+
+    table.romance{
+        height: 100px;
+        width: 180px;
+        margin: 0px;
+        font-size: 28px;
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+
+    table.adventure{
+        height: 100px;
+        width: 180px;
+        margin: 0px;
+        font-size: 20px;
+        margin-left: 10px;
+    }

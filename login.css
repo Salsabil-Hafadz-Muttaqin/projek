@@ -144,3 +144,23 @@ table.tabele tr td.submit input{
 table.tabele tr td.submit input:hover{
     zoom: 1.02;
 }
+
+@media screen and (max-width: 960px) {
+    table.top {
+        height: 150px;
+        width: 700px;
+        border-radius: 1.5em;
+        font-size: 40px;
+        text-align: left;
+        position: static;
+        background-color: rgb(199, 195, 195);
+    }
+
+    table.tabele tr th{
+        font-size: 20px;
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-top: 50px;
+        width: 170px;
+        height: 40px;
+    }

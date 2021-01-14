@@ -127,3 +127,14 @@ table.romancehome{
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width: 960px) {
+    table.top {
+        height: 150px;
+        width: 960;
+        border-radius: 1.5em;
+        font-size: 40px;
+        text-align: left;
+        position: static;
+        background-color: rgb(199, 195, 195);
+    }

@@ -153,3 +153,17 @@ table.tabele tr td.button button:hover{
 .modal-content .modal-header{
     padding: 30px 30px;
 }
+
+@media screen and (max-width: 960px) {
+    table.top {
+        height: 150px;
+        width: 700px;
+    }
+
+    table.tabele tr td.button button{
+        margin-left: 260px;
+    }
+
+    table.tabele tr td.submit input{
+        margin-left: 520px;
+    }
